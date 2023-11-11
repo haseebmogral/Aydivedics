@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/prod_name"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="facetune cream"></TextView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="2">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:text="Prepaid"
+                    android:layout_margin="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"></TextView>
+                <EditText
+                    android:id="@+id/prepaidOrders"
+                    android:layout_margin="1dp"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:hint="prepaid orders"
+                    android:background="@drawable/inputrectback"
+                    android:backgroundTint="@color/black"
+                    ></EditText>
+                <EditText
+                    android:id="@+id/prepaidPieces"
+                    android:layout_margin="1dp"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:hint="prepaid pieces"
+                    android:background="@drawable/inputrectback"
+                    android:backgroundTint="@color/black"
+                    ></EditText>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:text="Prepaid"
+                    android:layout_margin="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"></TextView>
+                <EditText
+                    android:id="@+id/codOrders"
+                    android:layout_margin="1dp"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:hint="COD orders"
+                    android:background="@drawable/inputrectback"
+                    android:backgroundTint="@color/black"
+                    ></EditText>
+                <EditText
+                    android:id="@+id/codPieces"
+                    android:layout_margin="1dp"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:hint="COD pieces"
+                    android:background="@drawable/inputrectback"
+                    android:backgroundTint="@color/black"
+                    ></EditText>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
